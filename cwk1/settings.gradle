@@ -1,0 +1,4 @@
+rootProject.name = 'cwk1'
+include 'core'
+include 'analysis'
+//include 'chart'

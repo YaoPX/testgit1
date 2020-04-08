@@ -1,0 +1,25 @@
+plugins {
+  id 'java'
+  id 'checkstyle'
+  id 'application'
+  id 'idea'
+}
+
+dependencies {
+  implementation project(':core')
+}
+
+checkstyle {
+  showViolations false
+}
+
+idea {
+  module {
+    outputDir file('build/classes/main')
+    testOutputDir file('build/classes/test')
+  }
+}
+
+mainClassName = 'comp1721.cwk1.Analysis'
+
+defaultTasks 'run'
