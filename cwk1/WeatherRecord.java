@@ -6,16 +6,16 @@ import java.util.Date;
 
 public class WeatherRecord {
 
-	WeatherRecord(LocalDateTime time,double windspeed,double temperature,double solar_irradiance,double humidity ){
+	private WeatherRecord(LocalDateTime time,double windspeed,double temperature,double solar_irradiance,double humidity ){
 		
 	}
 	
-	LocalDateTime getTime() {
+	private LocalDateTime getTime() {
 		return null;
 		
 	}
 	
-	double getWindSpeed() {
+	 private double getWindSpeed() {
 		return 0;
 		
 	}
